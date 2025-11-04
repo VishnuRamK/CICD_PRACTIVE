@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git url: 'https://github.com/vVishnuRamK/CICD_PRACTIVE.git', branch: 'main'
+                git url: 'https://github.com/VishnuRamK/CICD_PRACTIVE.git', branch: 'main'
             }
         }
 
